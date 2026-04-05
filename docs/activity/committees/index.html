@@ -1,1 +1,284 @@
-HTML template [activity/committees/index.html]cannot be rendered due to: UndefinedError("'None' has no attribute 'topics'")
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive Bootstrap 4 Admin &amp; Dashboard Template">
+    <meta name="author" content="Bootlab">
+
+    <title>Homepage for Joel Brownstein: Activity&gt; Committees</title>
+    <link href="/resources/appstack/appstack-1-2-0-2/dist/css/modern.css" rel="stylesheet">
+    <link href="/resources/css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <nav class="sidebar">
+            <div class="sidebar-content ">
+                <a class="sidebar-brand" href="/"><img src="/resources/png/joelbrownstein_72dpi.png" class="avatar img-fluid rounded-circle" alt="Profile Pic"><span class="align-middle">&nbsp;&nbsp;&nbsp;&nbsp;Joel Brownstein</span></a>
+                <ul class="sidebar-nav">
+                    <li class="sidebar-header">
+                        Homepage
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#site" data-toggle="collapse" class="sidebar-link collapsed"><i class="align-middle" data-feather="coffee"></i> <span class="align-middle">About Me</span></a>
+                        
+                        <ul id="site" class="sidebar-dropdown list-unstyled collapse">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/">My Research </a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/academics">Academic History</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/contact">Contact Information</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#research" data-toggle="collapse" class="sidebar-link collapsed"><i class="align-middle" data-feather="archive"></i> <span class="align-middle">Research Topics</span></a>
+                        
+                        <ul id="research" class="sidebar-dropdown list-unstyled collapse">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/lensing">Strong Gravitation Lensing</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/dm">Dark Matter</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/galaxy">Galaxy Clustering and Evolution</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/gravity">Gravity</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/cosmology">Cosmology</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#software" data-toggle="collapse" class="sidebar-link collapsed"><i class="align-middle" data-feather="terminal"></i> <span class="align-middle">Software</span></a>
+                        
+                        <ul id="software" class="sidebar-dropdown list-unstyled collapse">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/software/sdss">SDSS</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/software/lensing">Lensing</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/software/machine_learning">Machine Learning</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#data" data-toggle="collapse" class="sidebar-link collapsed"><i class="align-middle" data-feather="aperture"></i> <span class="align-middle">Astronomical Data</span></a>
+                        
+                        <ul id="data" class="sidebar-dropdown list-unstyled collapse">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/data/sdss5">SDSS-V</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/data/sdss4">SDSS-IV</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/data/sdss3">SDSS-III</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/data/hst">HST</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/data/spitzer">Spitzer</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#activity" data-toggle="collapse" class="sidebar-link"><i class="align-middle" data-feather="layers"></i> <span class="align-middle">Scientific Activity</span></a>
+                        
+                        <ul id="activity" class="sidebar-dropdown list-unstyled collapse show">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/activity/publications">Publications</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/activity/talks">Talks</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item active"><a class="sidebar-link" href="/activity/committees">Committees</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/activity/affiliations">Affiliations</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                </ul>
+
+                <!--<div class="sidebar-bottom d-none d-lg-block">
+                    <div class="media">
+                        &copy; 2021 &nbsp;&nbsp;<a  href="/" class="text-muted">Prof. Joel R. Brownstein</a>
+                    </div>
+                </div>-->
+
+            </div>
+        </nav>
+        <div class="main">
+            <nav class="navbar navbar-expand navbar-light bg-white">
+                <a class="sidebar-toggle d-flex mr-2"><i class="hamburger align-self-center"></i></a>
+
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://arxiv.org/search/advanced?advanced=&terms-0-term=%22Joel+R.+Brownstein%22&terms-0-operator=AND&terms-0-field=author&terms-1-term=%22Joel+Brownstein%22&terms-1-operator=OR&terms-1-field=author&terms-2-term=%22J.+R.+Brownstein%22&terms-2-operator=OR&terms-2-field=author&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=200&order=-announced_date_first"><i class="fas fa-search fa-fw mr-1"></i>arXiv&nbsp;ePrints</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://ui.adsabs.harvard.edu/search/q=author%3A%20%22brownstein%2C%20j%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"><i class="fas fa-search fa-fw mr-1"></i>ADS&nbsp;Abstracts</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://scholar.google.com/citations?user=Yr5IIFEAAAAJ"><i class="fab fa-google fa-fw mr-1"></i>Scholar</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://www.linkedin.com/in/joel-brownstein-33b092148/"><i class="fab fa-linkedin fa-fw mr-1"></i>LinkedIn</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://orcid.org/0000-0002-8725-1069"><span class="mr-1" style="padding-left:.125rem!important; " ><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91c0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248s248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57a19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z" fill="#626262"/></svg></span>OrcID</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://ui.adsabs.harvard.edu/search/q=orcid%3A%200000-0002-8725-1069&sort=date%20desc%2C%20bibcode%20desc/metrics"><i class="fa fa-table" aria-hidden="true"></i> Citation&nbsp;Metrics</a>
+                    </li>
+                </ul>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-toggle="dropdown">
+                 <span class="text-dark">Data</span>
+              </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" target="_external" href="https://data.sdss.org"><i class="align-middle mr-1" data-feather="aperture"></i> SDSS Data</a>
+                                <a class="dropdown-item" target="_external" href="http://test.masterlens.org"><i class="align-middle mr-1" data-feather="disc"></i> Master Lens Database</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+            <main class="content">
+                <div class="container-fluid p-0">
+
+                    <div class="row">
+                        <div class="col-md-12 col-xl-12">
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">Joel Brownstein's Committee Work</h5>
+                                </div>
+
+                                <div class="card-body">
+                                    <table id="datatables-clients" class="table table-striped" style="width:100%">
+                                        <tr><th>2025&nbsp;&ndash;</th><td><h5 class='mb-0'>After SDSS-V (AS5) Management Committee</h5>
+                                            This committee is responsible for managing the future After SDSS-V collaboration.  My role extends my contribution as the head of data management and archiving for SDSS into the AS5 era.</td></tr>
+                                        <tr><th>2024&nbsp;&ndash;</th><td><h5 class='mb-0'>University of Utah College of Science College Council</h5>
+                                            This council operates standing committees for the College of Science, and advises the faculty and students on the progress of initiatives and issues or concerns. I represent the Department of Physics and Astronomy.</td></tr>
+                                        <tr><th>2021&nbsp;&ndash;2024</th><td><h5 class='mb-0'>SDSS-V Collaboration Council</h5>
+                                            This council advises the SDSS-V collaboration. I represent the University of Utah which is a full institution member of SDSS-V.</td></tr>
+                                        <tr><th>2020&nbsp;&ndash; 2021</th><td><h5 class='mb-0'>Physics and Astronomy Virtual Seminar Committee, University of Utah</h5>
+                                            This committee is responsible for inviting and hosting speakers for the Physics and Astronomy Colloquium, and the High-Energy and Astrophysics (HEAP) seminar, which are held over zoom.</td></tr>
+                                        <tr><th>Spring 2020</th><td><h5 class='mb-0'>Science Organizing Committee for the 2020 SDSS-V / SDSS-IV Collaboration Meeting</h5>
+                                            This committee was responsible for organizing the science program for the annual SDSS meeting held (virtually) in New York. The meeting website is here: <a target="_external" href="https://internal.sdss.org/meetings/gotham2020">https://internal.sdss.org/meetings/gotham2020</a>.</td></tr>
+                                        <tr><th>2019&nbsp;&ndash; 2020</th><td><h5 class='mb-0'>Physics and Astronomy Seminar Committee, University of Utah</h5>
+                                            This committee was responsible for inviting and hosting speakers for the Physics and Astronomy Colloquium, and the High-Energy and Astrophysics (HEAP) seminar, and organizing in-person social events.</td></tr>
+                                        <tr><th>Spring 2019</th><td><h5 class='mb-0'>Science Organizing Committee for the 2019 SDSS-V / SDSS-IV Collaboration Meeting</h5>
+                                            This committee was responsible for organizing the science program for the annual SDSS meeting held in Ensenada, Baja California. <a target="_external" href="https://internal.sdss.org/meetings/ensenada2019">https://internal.sdss.org/meetings/ensenada2019</a>.</td></tr>
+                                        <tr><th>2017 - 2025</th><td><h5 class='mb-0'>SDSS-V Management Committee</h5>
+                                            This committee is responsible for managing the SDSS-V collaboration.  My role is the head of data management and archiving for SDSS-V.</td></tr>
+                                        <tr><th>2016&nbsp;&ndash; 2018</th><td><h5 class='mb-0'>The Academic Senate of the University of Utah</h5>
+                                            I was elected by the College of Science to represent the Department of Physics and Astronomy on the University of Utah's Academic Senate for a 2 year term.</td></tr>
+                                        <tr><th>2014&nbsp;&ndash; 2021</th><td><h5 class='mb-0'>SDSS-IV Management Committee</h5>
+                                            This committee is responsible for managing the SDSS-IV collaboration.  My role is the science archive scientist for SDSS-IV.</td></tr>
+                                        <tr><th>2013&nbsp;&ndash; 2021</th><td><h5 class='mb-0'>SDSS-IV Collaboration Council</h5>
+                                            This council advises the SDSS-IV collaboration. I represent the University of Utah which is a full institution member of SDSS-IV.</td></tr>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </main>
+
+
+            <footer class="footer pb-5">
+                <div class="media float-right">
+                    &copy; 2021–2026 &nbsp;&nbsp;<a  href="https://web.physics.utah.edu/~joelbrownstein/" class="text-muted">Prof. Joel R. Brownstein, University of Utah</a>
+                </div>
+            </footer>
+        </div>
+    <script src="/resources/appstack/appstack-1-2-0-2/dist/js/app.js"></script>
+    <link href="/resources/css/edit/table.css" rel="stylesheet">
+    <script src="/resources/jquery/edit/table.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+        $(function() {
+            $("pre code").each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+
+<script>
+$(document).ready(function() {
+
+    $('[id^=redirect-]').click(function() {
+        var ids = $(this).attr('id').split('-');
+        var redirect = $(location).attr('href');
+        if (ids[2] == "edit") {
+            redirect = redirect + '/edit';
+        } else if (ids[1] == "edit" && redirect.match(/edit$/)) {
+            redirect = redirect.substring(redirect.length - 5,0);
+        }
+        location.replace(redirect);
+    });
+    
+    $( "#form-edit" ).submit(function( event ) { event.preventDefault(); });
+
+});
+</script>
+    </div>
+</body>
+</html>
+

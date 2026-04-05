@@ -1,1 +1,447 @@
-HTML template [data/hst/index.html]cannot be rendered due to: UndefinedError("'None' has no attribute 'topics'")
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive Bootstrap 4 Admin &amp; Dashboard Template">
+    <meta name="author" content="Bootlab">
+
+    <title>Homepage for Joel Brownstein: Data&gt; Hst</title>
+    <link href="/resources/appstack/appstack-1-2-0-2/dist/css/modern.css" rel="stylesheet">
+    <link href="/resources/css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <nav class="sidebar">
+            <div class="sidebar-content ">
+                <a class="sidebar-brand" href="/"><img src="/resources/png/joelbrownstein_72dpi.png" class="avatar img-fluid rounded-circle" alt="Profile Pic"><span class="align-middle">&nbsp;&nbsp;&nbsp;&nbsp;Joel Brownstein</span></a>
+                <ul class="sidebar-nav">
+                    <li class="sidebar-header">
+                        Homepage
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#site" data-toggle="collapse" class="sidebar-link collapsed"><i class="align-middle" data-feather="coffee"></i> <span class="align-middle">About Me</span></a>
+                        
+                        <ul id="site" class="sidebar-dropdown list-unstyled collapse">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/">My Research </a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/academics">Academic History</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/contact">Contact Information</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#research" data-toggle="collapse" class="sidebar-link collapsed"><i class="align-middle" data-feather="archive"></i> <span class="align-middle">Research Topics</span></a>
+                        
+                        <ul id="research" class="sidebar-dropdown list-unstyled collapse">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/lensing">Strong Gravitation Lensing</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/dm">Dark Matter</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/galaxy">Galaxy Clustering and Evolution</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/gravity">Gravity</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/research/cosmology">Cosmology</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#software" data-toggle="collapse" class="sidebar-link collapsed"><i class="align-middle" data-feather="terminal"></i> <span class="align-middle">Software</span></a>
+                        
+                        <ul id="software" class="sidebar-dropdown list-unstyled collapse">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/software/sdss">SDSS</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/software/lensing">Lensing</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/software/machine_learning">Machine Learning</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#data" data-toggle="collapse" class="sidebar-link"><i class="align-middle" data-feather="aperture"></i> <span class="align-middle">Astronomical Data</span></a>
+                        
+                        <ul id="data" class="sidebar-dropdown list-unstyled collapse show">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/data/sdss5">SDSS-V</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/data/sdss4">SDSS-IV</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/data/sdss3">SDSS-III</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item active"><a class="sidebar-link" href="/data/hst">HST</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/data/spitzer">Spitzer</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <li class="sidebar-item">
+                        
+                        <a href="#activity" data-toggle="collapse" class="sidebar-link collapsed"><i class="align-middle" data-feather="layers"></i> <span class="align-middle">Scientific Activity</span></a>
+                        
+                        <ul id="activity" class="sidebar-dropdown list-unstyled collapse">
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/activity/publications">Publications</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/activity/talks">Talks</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/activity/committees">Committees</a></li>
+                        
+                            
+                            
+                            <li class="sidebar-item"><a class="sidebar-link" href="/activity/affiliations">Affiliations</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                </ul>
+
+                <!--<div class="sidebar-bottom d-none d-lg-block">
+                    <div class="media">
+                        &copy; 2021 &nbsp;&nbsp;<a  href="/" class="text-muted">Prof. Joel R. Brownstein</a>
+                    </div>
+                </div>-->
+
+            </div>
+        </nav>
+        <div class="main">
+            <nav class="navbar navbar-expand navbar-light bg-white">
+                <a class="sidebar-toggle d-flex mr-2"><i class="hamburger align-self-center"></i></a>
+
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://arxiv.org/search/advanced?advanced=&terms-0-term=%22Joel+R.+Brownstein%22&terms-0-operator=AND&terms-0-field=author&terms-1-term=%22Joel+Brownstein%22&terms-1-operator=OR&terms-1-field=author&terms-2-term=%22J.+R.+Brownstein%22&terms-2-operator=OR&terms-2-field=author&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=200&order=-announced_date_first"><i class="fas fa-search fa-fw mr-1"></i>arXiv&nbsp;ePrints</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://ui.adsabs.harvard.edu/search/q=author%3A%20%22brownstein%2C%20j%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"><i class="fas fa-search fa-fw mr-1"></i>ADS&nbsp;Abstracts</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://scholar.google.com/citations?user=Yr5IIFEAAAAJ"><i class="fab fa-google fa-fw mr-1"></i>Scholar</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://www.linkedin.com/in/joel-brownstein-33b092148/"><i class="fab fa-linkedin fa-fw mr-1"></i>LinkedIn</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://orcid.org/0000-0002-8725-1069"><span class="mr-1" style="padding-left:.125rem!important; " ><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91c0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248s248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57a19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z" fill="#626262"/></svg></span>OrcID</a>
+                    </li><li class="list-group-item border-0">
+                        <a class="btn btn-sm btn-light" target="_external" href="https://ui.adsabs.harvard.edu/search/q=orcid%3A%200000-0002-8725-1069&sort=date%20desc%2C%20bibcode%20desc/metrics"><i class="fa fa-table" aria-hidden="true"></i> Citation&nbsp;Metrics</a>
+                    </li>
+                </ul>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-toggle="dropdown">
+                 <span class="text-dark">Data</span>
+              </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" target="_external" href="https://data.sdss.org"><i class="align-middle mr-1" data-feather="aperture"></i> SDSS Data</a>
+                                <a class="dropdown-item" target="_external" href="http://test.masterlens.org"><i class="align-middle mr-1" data-feather="disc"></i> Master Lens Database</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+            <main class="content">
+                <div class="container-fluid p-0">
+
+                    <div class="row">
+                        <div class="col-md-12 col-xl-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">HST</h5>
+                                </div>
+                                <div class="card-body h-100">
+
+                                    <div class="media">
+                                        <div class="media-body">
+                                            <p>I was co-Investigator on a number of HST proposals to observe strong gravitational lenses detected in SDSS-III (SLACS) and SDSS-IV (BELLS), which led to a number of publications.  There are significant challenges remaining in the data analysis in order to dissect these galaxies in luminous and dark components, and there are new candidates from SDSS-IV (SILO) that are ideal for followup HST imaging.</p>
+                                            <h5>HST Approved Programs</h5>
+                                            
+                                            <table id="datatables-clients" class="table table-striped" style="width:100%">
+                                                <tr><th>Cycle 23</th><th>10/2015 &ndash; 12/2017</th><td><h5 class='mb-0'><a target="_external" href="https://www.stsci.edu/cgi-bin/get-proposal-info?id=14189&observatory=HST">HST-GO-14189</a></h5>
+                                                    Quantifying Cold Dark Matter Substructure with a Qualitatively New Gravitational Lens Sample.</td></tr>
+                                                <tr><th>Cycle 20</th><th>01/2012 &ndash; 12/2016</th><td><h5 class='mb-0'><a target="_external" href="https://www.stsci.edu/cgi-bin/get-proposal-info?id=12833&observatory=HST">HST-AR-12833</a></h5>
+                                                    The Master Lens Database and The Orphan Lenses Project.</td></tr>
+                                                <tr><th>Cycle 18</th><th>10/2010 &ndash; 12/2012</th><td><h5 class='mb-0'><a target="_external" href="https://www.stsci.edu/cgi-bin/get-proposal-info?id=12210&observatory=HST">HST-SNAP-12210</a></h5>
+                                                    SLACS for the Masses: Extending Strong Lensing to Lower Masses and Smaller Radii.</td></tr>
+                                                <tr><th>Cycle 18</th><th>10/2010 &ndash; 12/2012</th><td><h5 class='mb-0'><a target="_external" href="https://www.stsci.edu/cgi-bin/get-proposal-info?id=12209&observatory=HST">HST-GO-12209</a></h5>
+                                                    A Strong Lensing Measurement of the Evolution of Mass Structure in Giant Elliptical Galaxies.</td></tr>
+                                            </table>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">BOSS Emission-Line Lensing Survey (BELLS)</h5>
+                                </div>
+                                <div class="card-body h-100">
+
+                                    <div class="media">
+                                        <div class="media-body">
+
+                                            <h5>BELLS Publications</h5>
+                                            <table id="datatables-clients" class="table table-striped" style="width:100%">
+                                                <tr>
+                                                    <td  width='25%'>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <a target="_external" href="https://ui.adsabs.harvard.edu/abs/2012ApJ...744...41B/abstract" class="btn btn-sm btn-primary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;ApJ&nbsp;(2012&nbsp;)&nbsp;<b>744</b>&nbsp;41</a><br/><a target="_external" href="https://ui.adsabs.harvard.edu/abs/2012ApJ...744...41B/citations" class="btn btn-sm btn-secondary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;190&nbsp;Citations</a>
+                                                    </td>
+                                                    <td width='75%'>The BOSS Emission-Line Lens Survey (BELLS). I. A Large Spectroscopically Selected Sample of Lens Galaxies at Redshift ~0.5</td>
+                                                </tr><tr>
+                                                    <td  width='25%'>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <a target="_external" href="https://ui.adsabs.harvard.edu/abs/2012ApJ...757...82B/abstract" class="btn btn-sm btn-primary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;ApJ&nbsp;(2012&nbsp;)&nbsp;<b>757</b>&nbsp;82</a><br/><a target="_external" href="https://ui.adsabs.harvard.edu/abs/2012ApJ...757...82B/citations" class="btn btn-sm btn-secondary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;155&nbsp;Citations</a>
+                                                    </td>
+                                                    <td width='75%'>The BOSS Emission-Line Lens Survey. II. Investigating Mass-density Profile Evolution in the SLACS+BELLS Strong Gravitational Lens Sample</td>
+                                                </tr><tr>
+                                                    <td  width='25%'>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <a target="_external" href="https://ui.adsabs.harvard.edu/abs/2016ApJ...824...86S/abstract" class="btn btn-sm btn-primary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;ApJ&nbsp;(2016&nbsp;)&nbsp;<b>824</b>&nbsp;86</a><br/><a target="_external" href="https://ui.adsabs.harvard.edu/abs/2016ApJ...824...86S/citations" class="btn btn-sm btn-secondary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;81&nbsp;Citations</a>
+                                                    </td>
+                                                    <td width='75%'>The BOSS Emission-line Lens Survey. III. Strong Lensing of Lyα Emitters by Individual Galaxies</td>
+                                                </tr><tr>
+                                                    <td  width='25%'>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <a target="_external" href="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..264S/abstract" class="btn btn-sm btn-primary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;ApJ&nbsp;(2016&nbsp;)&nbsp;<b>833</b>&nbsp;264</a><br/><a target="_external" href="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..264S/citations" class="btn btn-sm btn-secondary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;99&nbsp;Citations</a>
+                                                    </td>
+                                                    <td width='75%'>The BOSS Emission-line Lens Survey. IV. Smooth Lens Models for the BELLS GALLERY Sample</td>
+                                                </tr><tr>
+                                                    <td  width='25%'>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <a target="_external" href="https://ui.adsabs.harvard.edu/abs/2017ApJ...834L..18M/abstract" class="btn btn-sm btn-primary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;ApJL&nbsp;(2017&nbsp;)&nbsp;<b>834</b>&nbsp;L18</a><br/><a target="_external" href="https://ui.adsabs.harvard.edu/abs/2017ApJ...834L..18M/citations" class="btn btn-sm btn-secondary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;17&nbsp;Citations</a>
+                                                    </td>
+                                                    <td width='75%'>Discovery of a Very Bright and Intrinsically Very Luminous, Strongly Lensed Lyα Emitting Galaxy at z = 2.82 in the BOSS Emission-Line Lens Survey</td>
+                                                </tr><tr>
+                                                    <td  width='25%'>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <a target="_external" href="https://ui.adsabs.harvard.edu/abs/2018ApJ...853..148C/abstract" class="btn btn-sm btn-primary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;ApJ&nbsp;(2018&nbsp;)&nbsp;<b>853</b>&nbsp;148</a><br/><a target="_external" href="https://ui.adsabs.harvard.edu/abs/2018ApJ...853..148C/citations" class="btn btn-sm btn-secondary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;29&nbsp;Citations</a>
+                                                    </td>
+                                                    <td width='75%'>The BOSS Emission-line Lens Survey. V. Morphology and Substructure of Lensed Lyα Emitters at Redshift Z ≈ 2.5 in the BELLS GALLERY</td>
+                                                </tr><tr>
+                                                    <td  width='25%'>
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <a target="_external" href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1257M/abstract" class="btn btn-sm btn-primary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;MNRAS&nbsp;(2020&nbsp;)&nbsp;<b>492</b>&nbsp;1257</a><br/><a target="_external" href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.1257M/citations" class="btn btn-sm btn-secondary mt-1"><span class="fas fa-external-link-alt fa-fw mr-1"></span>&nbsp;22&nbsp;Citations</a>
+                                                    </td>
+                                                    <td width='75%'>Rest-frame UV properties of luminous strong gravitationally lensed Lyα emitters from the BELLS GALLERY Survey</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr class="my-0" />
+                                <div class="card-body">
+
+                                    <h5>BELLS Confirmed Gravitational Lenses</h5>
+                                    <p class='mb-0'>The figures below show the HST images for the BELLS confirmed lenses, including the combined and rectified exposures (left panel) and the foreground subtracted image to reveal the strongly lensed background galaxy.</p>
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            
+                                            <div class="carousel-item active">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0151+0049.png" alt="SDSSJ0151+0049"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0747+4448.png" alt="SDSSJ0747+4448"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0747+5055.png" alt="SDSSJ0747+5055"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0801+4727.png" alt="SDSSJ0801+4727"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0821+3733.png" alt="SDSSJ0821+3733"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0830+5116.png" alt="SDSSJ0830+5116"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0840+5051.png" alt="SDSSJ0840+5051"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0841+5017.png" alt="SDSSJ0841+5017"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0915-0055.png" alt="SDSSJ0915-0055"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0941-0104.png" alt="SDSSJ0941-0104"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ0944-0147.png" alt="SDSSJ0944-0147"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1016-0208.png" alt="SDSSJ1016-0208"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1039-0014.png" alt="SDSSJ1039-0014"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1159-0007.png" alt="SDSSJ1159-0007"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1215+0047.png" alt="SDSSJ1215+0047"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1221+3806.png" alt="SDSSJ1221+3806"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1234-0241.png" alt="SDSSJ1234-0241"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1318-0104.png" alt="SDSSJ1318-0104"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1337+3620.png" alt="SDSSJ1337+3620"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1344+3258.png" alt="SDSSJ1344+3258"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1349+3612.png" alt="SDSSJ1349+3612"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1352+3216.png" alt="SDSSJ1352+3216"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1452+3323.png" alt="SDSSJ1452+3323"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1503+3225.png" alt="SDSSJ1503+3225"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1522+2910.png" alt="SDSSJ1522+2910"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1537+0220.png" alt="SDSSJ1537+0220"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1545+2748.png" alt="SDSSJ1545+2748"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1601+2138.png" alt="SDSSJ1601+2138"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1611+1705.png" alt="SDSSJ1611+1705"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1631+1854.png" alt="SDSSJ1631+1854"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ1637+1439.png" alt="SDSSJ1637+1439"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ2122+0409.png" alt="SDSSJ2122+0409"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ2125+0411.png" alt="SDSSJ2125+0411"></td></tr></table>
+                                            </div><div class="carousel-item">
+                                                <table><tr><td width="50%"><img class="d-block w-100" src="/resources/png/bells/SDSSJ2303+0037.png" alt="SDSSJ2303+0037"></td></tr></table>
+                                            </div>
+                                        </div>
+                                        <a style="filter: invert(100%); top:83%;" class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+                                        </a>
+                                        <a style="filter: invert(100%); top:83%;" class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                    <br/>
+                                    <table><tr><td width="10%"></td><td width="90%" style="vertical-align: top;"><img class="w-100" src="/resources/png/bells/bells_legend.png" alt="Color Scale"></td></tr></table>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </main>
+
+
+            <footer class="footer pb-5">
+                <div class="media float-right">
+                    &copy; 2021–2026 &nbsp;&nbsp;<a  href="https://web.physics.utah.edu/~joelbrownstein/" class="text-muted">Prof. Joel R. Brownstein, University of Utah</a>
+                </div>
+            </footer>
+        </div>
+    <script src="/resources/appstack/appstack-1-2-0-2/dist/js/app.js"></script>
+    <link href="/resources/css/edit/table.css" rel="stylesheet">
+    <script src="/resources/jquery/edit/table.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+        $(function() {
+            $("pre code").each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+
+<script>
+$(document).ready(function() {
+
+    $('[id^=redirect-]').click(function() {
+        var ids = $(this).attr('id').split('-');
+        var redirect = $(location).attr('href');
+        if (ids[2] == "edit") {
+            redirect = redirect + '/edit';
+        } else if (ids[1] == "edit" && redirect.match(/edit$/)) {
+            redirect = redirect.substring(redirect.length - 5,0);
+        }
+        location.replace(redirect);
+    });
+    
+    $( "#form-edit" ).submit(function( event ) { event.preventDefault(); });
+
+});
+</script>
+    </div>
+</body>
+</html>
+
