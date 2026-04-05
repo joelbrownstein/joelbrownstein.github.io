@@ -1,1 +1,1 @@
-<?php header("Location: http://web.physics.utah.edu/~joelbrownstein/tools/python"); ?>
+<?php header("Location: ./tools/python"); ?>

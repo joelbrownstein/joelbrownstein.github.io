@@ -1,1 +1,1 @@
-<?php header("Location: http://web.physics.utah.edu/~joelbrownstein/research/lensing/"); ?>
+<?php header("Location: ./research/lensing/"); ?>

@@ -1,1 +1,1 @@
-<?php header("Location: http://web.physics.utah.edu/~joelbrownstein/data/sdss5"); ?>
+<?php header("Location: ./data/sdss5"); ?>
