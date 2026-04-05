@@ -1,0 +1,50 @@
+/* A deeper, accessible blue */
+a {
+    color: #004494 !important; 
+    font-weight: bold !important;
+}
+
+/* Ensure links are darker when hovered */
+a:hover, a:focus {
+    color: #002D62 !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+
+.btn-primary {
+  --btn-primary-bg: oklch(80% 0.1 240); /* Example base color */
+  background-color: var(--btn-primary-bg);
+}
+
+.btn-primary:hover {
+  background-color: oklch(from var(--btn-primary-bg) calc(l + 0.2) c h);
+}
+
+.btn-secondary {
+  --btn-secondary-bg: oklch(80% 0.1 320); /* Example base color */
+  background-color: var(--btn-secondary-bg);
+}
+
+.btn-secondary:hover {
+  background-color: oklch(from var(--btn-secondary-bg) calc(l + 0.2) c h);
+}
+
+
+.badge-info {
+  --badge-info-bg: oklch(90% 0.1 180);;
+  background-color: var(--badge-info-bg);
+}
+
+.badge-info:hover {
+  background-color: oklch(from var(--badge-info-bg) calc(l + 0.2) c h);
+}
+
+.badge-primary {
+  --badge-primary-bg: oklch(90% 0.1 210);;
+  background-color: var(--badge-primary-bg);
+}
+
+.badge-primary:hover {
+  background-color: oklch(from var(--badge-primary-bg) calc(l + 0.2) c h);
+}
+

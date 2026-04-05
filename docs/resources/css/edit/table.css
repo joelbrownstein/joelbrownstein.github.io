@@ -1,0 +1,22 @@
+.ink-field{
+    box-shadow: 1px 1px 5px #11007F inset;
+    color: #11007F;
+    background-color: #E0E0F1;
+    border:none;
+    padding:8px;
+}
+.ink-field:active,.ink-field:focus{
+    color: #2600DB;
+    box-shadow: 1px 1px 5px #2600DB inset;
+}
+.invalid-field{
+    box-shadow: 1px 1px 5px #7F7F11 inset;
+    color: #11007F;
+    background-color: #FFFF00;
+    border:none;
+    padding:8px;
+}
+.invalid-field:active,.invalid-field:focus{
+    color: #2600DB;
+    box-shadow: 1px 1px 5px #2600DB inset;
+}
