@@ -31,20 +31,52 @@ a:hover, a:focus {
 
 
 .badge-info {
-  --badge-info-bg: oklch(90% 0.1 180);;
+  --badge-info-bg: oklch(90% 0.1 180);
   background-color: var(--badge-info-bg);
 }
 
 .badge-info:hover {
   background-color: oklch(from var(--badge-info-bg) calc(l + 0.2) c h);
+  color: oklch(from var(--badge-info-bg) calc(l + 0.4) c h);
+}
+
+/* Use 'a.badge-info' to ensure it overrides default link styles */
+a.badge-info {
+  --badge-info-bg: oklch(90% 0.1 180);
+  background-color: var(--badge-info-bg);
+  
+  /* Setting a base text color so the hover has a starting point */
+  color: oklch(30% 0.1 180); 
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Target the hover state specifically for the anchor tag */
+a.badge-info:hover {
+  /* Lightens the background slightly */
+  background-color: oklch(from var(--badge-info-bg) calc(l + 0.05) c h);
 }
 
 .badge-primary {
-  --badge-primary-bg: oklch(90% 0.1 210);;
+  --badge-primary-bg: oklch(90% 0.1 210);
   background-color: var(--badge-primary-bg);
 }
 
 .badge-primary:hover {
   background-color: oklch(from var(--badge-primary-bg) calc(l + 0.2) c h);
+  color: oklch(from var(--badge-primary-bg) calc(l + 0.4) c h);
+}
+
+/* Target the link directly to override default link colors */
+a.badge-primary {
+  --badge-primary-bg: oklch(90% 0.1 210);
+  background-color: var(--badge-primary-bg);
+  color: oklch(20% 0.1 210); /* Base dark text */
+  text-decoration: none;    /* Removes the underline usually found on links */
+}
+
+/* Target the hover state of the link */
+a.badge-primary:hover {
+  background-color: oklch(from var(--badge-primary-bg) calc(l + 0.05) c h);
 }
 
