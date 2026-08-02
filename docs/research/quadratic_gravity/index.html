@@ -1,1 +1,27 @@
-HTML template [research/quadratic_gravity/index.html]cannot be rendered due to: UndefinedError("'collections.OrderedDict object' has no attribute 'quadratic_gravity'")
+HTML template [research/quadratic_gravity/index.html]cannot be rendered due to: UndefinedError("'collections.OrderedDict object' has no attribute 'quadratic_gravity'")<br/><br/>Traceback (most recent call last):
+  File "/home/homepage/software/github/joelbrownstein/homepage/main/python/homepage/views/base.py", line 82, in set_response
+    self.response = render_template(self.template, site=self.site, form=self.form, results=self.results, object=self.object, mode=self.mode)
+<br/>
+  File "/usr/local/lib/python3.11/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+<br/>
+  File "/usr/local/lib/python3.11/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+<br/>
+  File "/usr/local/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/homepage/software/github/joelbrownstein/homepage/main/python/homepage/templates/research/quadratic_gravity/index.html", line 1, in top-level template code
+    {% extends "base/index.html" %}
+<br/>
+  File "/home/homepage/software/github/joelbrownstein/homepage/main/python/homepage/templates/base/index.html", line 12, in top-level template code
+    {% block content %}{% endblock %}
+<br/>
+  File "/home/homepage/software/github/joelbrownstein/homepage/main/python/homepage/templates/research/quadratic_gravity/index.html", line 12, in block 'content'
+    <h5 class="card-title mb-0">{{ site.topics.research.subtopics.quadratic_gravity.title }}</h5>
+<br/>
+  File "/usr/local/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+<br/>
+jinja2.exceptions.UndefinedError: 'collections.OrderedDict object' has no attribute 'quadratic_gravity'
